@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Users\Ritika Lath\OneDrive\Desktop\WhatsappChatBot\jokes-sble-c9ffb7d2e8f6.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "jokes-sble-c9ffb7d2e8f6.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
